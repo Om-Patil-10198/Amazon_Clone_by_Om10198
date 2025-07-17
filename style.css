@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    border: border-box;
+    color: rgb(21, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-between;
+}
+#logo-nav{
+    height: 35px;
+    width: 120px;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+#amazon_logo{
+    background-image:url("Amazon logo.png");
+    background-size: cover;
+    height: 35px;
+    width: 100px;
+    margin-left: 10px;
+
+}
+#map-icon{
+    display: flex;
+}
+#map-icon i{
+    color: white;
+}
+#ind{
+    margin-left: 0.5rem;
+    font-size:1.2rem ;
+    color: white;
+}
+.grey{
+    color: #cccccc;
+}
+#nav-address{
+    padding-top: 0.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 44px;
+    
+}
+#deliver{
+    font-size: 0.9rem;
+    margin-left: 1.2rem;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #febd68;
+    border-radius: 5px;
+    
+}
+.All{
+    color: black;
+    height: 40px;
+    width: 52px;
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #e6e6e6;
+}
+
+.search-bar{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    
+}
+
+.search-icon{
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.search-icon i{
+    color: #0f1111;
+}
+
+.india{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    height:52px ;
+}
+.in-icon{
+    background-image: url("india.png");
+    background-size: cover;
+    width: 21px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.En{
+    font-weight: 700;
+    color: white;
+}
+
+.hello{
+    padding: 13px;
+    padding: 16px;
+    font-weight: 700;
+    height:20px ;
+}
+
+.ro{
+    padding: 13px;
+    padding: 16px;
+    font-weight: 700;
+    height:20px ;
+
+}
+.light{
+    font-size: 11px;
+    color: white;
+}
+
+.dark{
+    font-size: 14px;
+    color: white;
+}
+
+.cart{
+    display: flex;
+    padding-top: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height:40px ;
+    
+}
+.cart-icon{
+    font-size: 25px;
+    
+}
+.cart-icon i{
+    color: white;
+}
+.cart-text{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+.nav-search:hover{
+    border: 2px solid #febd68 ;
+    border-radius: 5px;
+}
+.nav-bar2{
+    display: flex;
+    height: 39px;
+    background-color: #232F3F;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: inherit;
+}
+.bar-all{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    font-weight: 700;
+}
+.all-gap{
+    padding-left: 5px;
+    color: white;
+}
+.bar-all i{
+    font-size: 20px;
+    color: white;
+    
+}
+.fogap{
+    padding: 10px;
+    color: white;
+}
+.home{
+    top: 420px;
+    height: 461px;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, #d5d9d9 100%),
+        url("Amazon home page 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-under{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 150px;
+    
+}
+.home1{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 520px;
+    width: 428px;
+    background-color: #ffffff;
+}
+.image1{
+    background-image: url(box3.jpg); 
+    height: 383px;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-size: cover;
+}
+.image2{
+    background-image: url(box2.jpg);
+    height: 383px;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-size: cover;
+    
+}
+.image3{
+    background-image: url(box4.jpg);
+    height: 383px;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-size: cover;
+    
+}
+.image4{
+    background-image: url(box5.jpg);
+    height: 383px;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-size: cover;
+    
+}
+.image5{
+    background-image: url(box6.jpg);
+    height: 383px;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-size: cover;
+    
+}
+.image6{
+    background-image: url(box7.jpg);
+    height: 383px;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-size: cover;
+    
+}
+.home2{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 520px;
+    width: 428px;
+    background-color: #ffffff;
+}
+.home3{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 520px;
+    width: 428px;
+    background-color: #ffffff;
+}
+.box1-text{
+    color: #0f1111;
+    font-size: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    background-color: white;
+    
+}
+.semo{
+    color: #2162A1;
+    padding-left: 28px;
+    padding-top: 20px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.fot1{
+    text-align: center;
+    padding: 15px;
+    height: 19px;
+    background-color: #232f3ee3;
+    color: white;
+    font-size: 13px;
+    font-family: inherit;
+}
+.fot2{
+    padding-top: 49px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 323px;
+    background-color: #232F3E;
+}
+.space1{
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #DDD;
+}
+.s2{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: white;
+}
+.lastl{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: #131A22;
+    height: 12px;
+    padding: 12px;
+    
+}
+body{
+    background-color: #d5d9d9;
+}
+.home-under2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 100px;
+}
